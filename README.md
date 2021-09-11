@@ -1,2 +1,9 @@
-# Data-Visualization-Tableau
-This contains the major work done on Tableau Desktop tool.
+About: Comparison among the top 100 FIFA 21 game players as well as teams. It provides us information about the relative position of a particular team and player from various countries of the world and helps us to identify the difference among those players and teams. Focus for this workbook was to compare players based on their country of origin, age and overall rating, their teams and other performance indicators identified by the game to conclude how, ultimately, individual player and team quality compares to one another. And, then provide a sound data visualization of every aspect by summarizing all charts on dashboard, which would help in concluding the findings.
+Data: The data for developing the FIFA dashboard has been scraped from the official website for the FIFA 21 game (https://www.fifaindex.com/). Since FIFA 21 was the latest game to release in the FIFA series back in October 2020, it provides an up-to-date information of all the players and teams in the world of football. On the website, the data for the top 100 players in FIFA 21 has been scraped using R language and then exported on to a CSV file. The data that was scraped includes the player ID, Name, Age, Team (Club level), Nationality, and Overall Rating among other sub-categories such as Ball skills, Defence Shooting etc. 
+Types of Charts: Efficiency Indicator – Age Vs. Overall Rating, Performance indicator- Radar Chart, Team/Club Indicator and World Map. 
+Findings: 
+1. Western European region dominates when it comes to selecting the top 100 players for FIFA'21. 
+2. Overall rating of 88 or more is achieved by players 25 years of age or more.
+3. ‘years of experience’ or ‘total matches played’ should also be a parameter to calculate the overall rating which is currently not the case.
+4. For the top 100 players with overall rating of 90 or above, the weakest one is their Defense.
+5. The top 100 players do not feature any goalkeepers, as evident from the Radar Chart.
